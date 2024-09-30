@@ -6,64 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>陳宇安的網站</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="all">
-        <div id="tltle">
-            <h1>
-                陳宇安的自我介紹
-            </h1>
+    <div id="app">
+        <div id="container">
+            <div id="user">
+                <div id="avatar">
+                    <img src="mycat.jpg" alt="">
+                </div>
+                <div id="userInfo">
+                    <div id="nameAndTitle">
+                        <p class="title">
+                            陳宇安
+                        </p>
+                        <p>
+                            財金四來雙主資管的學生
+                        </p>
+                        <p>
+                            頭像是我家的貓!
+                        </p>
+                    </div>    
+                    <div id="aboutUser">
+                        <a href="https://github.com/andrew610-howhow/113-1-TKU-Web">
+                            我的github公開頁面
+                        </a>
+                    </div>   
+                </div>
+            </div>
 
-            <span>
-                一個財金四來雙主資管的學生=>
-            </span>
+            <div id="about">
+                <div id="contact">
+                    <div id="specInfo">
+                        <div id="experienced">
+                            <p class="title">experienced </p>
+                            <p>
+                                練過火舞
+                            </p>
+                            <p>
+                                資管專題組長
+                            </p>
+                            <p>
+                                市場交易經驗3年
+                            </p>
+                            <p>
+                                主要商品為台指選擇權
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="things">
 
-            <a href="https://github.com/andrew610-howhow/113-1-TKU-Web">
-                我的github公開頁面
-            </a>
-        </div>
-        <div>
-            <p>
-                這是我家的貓！
-            </p>
-            <img src="mycat.jpg" height="180" width="260" alt="我家的貓">
-        </div>
+                <p class="title">
+                    some important things...
+                </p>
 
-        <form action="/submit" method="post">
-            <label for="name"><em>猜猜我家的貓叫什麼名字?</em></label>
-            <input type="text" id="name" name="name">
-            <input type="submit" value="提交">
-        </form>
-
-        <p>
-            以下是我的一些簡介
-        </p>
-
-        <table>
-            <tr>
-                <th>
-                    <ul>
-                        <li>準備碩士考試ing</li>
-                        <li>讓我all pass plz</li>
-                    </ul>
-                </th>
-            </tr>
-
-            <tr>
-                <td>
-                    <p>
-                        自傳重點
+                <div class="things">
+                    <p class="title">
+                        準備碩士考試ing
                     </p>
-                    <ol>
-                        <li>練過火舞</li>
-                        <li>資管專題組長</li>
-                        <li><strong>交易經驗3年</strong></li>
-                        <li>主要商品為台指選擇權</li>
-                    </ol>
-                </td>
-            </tr>
-        </table>
+                    讓我all pass plz
+                </div>               
+            </div>
+        </div>
     </div>
 </body>
 

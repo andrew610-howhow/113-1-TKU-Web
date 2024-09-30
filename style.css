@@ -1,28 +1,95 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
 }
 
-html, body {
-    width: 100vw;
+body,html{
     height: 100vh;
+    width: 100vw;
+    font: 16px;
 }
 
-#all{
-    width: 100%;
+#app{
     height: 100%;
-    padding: 1%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(UeXBak0.jpg);
 }
 
-#all #title{
-    width: 1000%;
-    height: 1000%;
-    padding: 10%;
-    font-size: 56px;
+#app #container{
+    width: 70%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #fcfcfc90;
+    backdrop-filter: blur(5px);
+    padding: 2% 3%;
+    border-radius: .5rem;
+    box-shadow: -4px 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+#app #container .title{
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+#app #container #user{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#app #container #avatar{
+
+}
+
+#app #container #avatar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+#app #container #userInfo{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+#app #container #about{
+    display: flex;
+    flex-direction: row; 
+    gap: 2rem; 
+}
+
+#app #container #about #specInfo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: .5rem;
+}
+
+
+#app #container #about #experienced{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#app #container #about #things{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: .5rem;
+}
+
+#app #container #about .things .title{
+    font-weight: 600;
+    font-size: 1.05rem;
 }
